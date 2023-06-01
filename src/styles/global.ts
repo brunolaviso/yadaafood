@@ -11,12 +11,18 @@ const GlobalStyle = createGlobalStyle`
     font-family: Arial, Helvetica, sans-serif;
   }
 
+  body {
+    background-color: #1b1b1b;
+  }
+
   .container {
     max-width: 1200px;
     height: 100%;
     margin: 0 auto;
     padding: 0 16px;
   }
+
+
 `
 
 export default GlobalStyle
