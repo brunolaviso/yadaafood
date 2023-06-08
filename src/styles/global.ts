@@ -8,7 +8,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   html, body, button {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
   }
 
   body {

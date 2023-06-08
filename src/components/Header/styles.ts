@@ -11,10 +11,13 @@ export const Container = styled.header`
     justify-content: space-between;
 
     h1 {
-      color: #f6f6f6;
+      color: red;
+      font-style: italic;
+      font-weight: 900;
 
       span {
-        color: red;
+        color: #ffffff;
+        font-weight: 400;
       }
     }
 
