@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const Container = styled.div`
   background-color: #2a2a2a;
@@ -15,31 +15,42 @@ export const Container = styled.div`
     width: 100%;
   }
 
-  h1 {
-    color: #fff;
-    margin-top: 32px;
-  }
+  > div {
+    padding: 16px;
 
-  p {
-    color: #fff;
-    font-weight: 300;
-  }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
-  span {
-    font-weight: 700;
-    font-size: 24px;
-    color: #fff;
-  }
+    h1 {
+      color: #fff;
+      
+    }
 
-  button {
-    border: none;
-    background-color: yellow;
-    height: 44px;
-    padding: 0 32px;
-    border-radius: 25px;
+    p {
+      color: #fff;
+      font-weight: 300;
+      text-align: center;
+      font-size: 14px;
+    }
 
-    font-size: 16px;
-    font-weight: 700;
-    margin-top: 16px;
+    span {
+      font-weight: 700;
+      font-size: 24px;
+      color: #fff;
+    }
+
+    button {
+      border: none;
+      background-color: yellow;
+      height: 44px;
+      padding: 0 32px;
+      border-radius: 25px;
+
+      font-size: 16px;
+      font-weight: 700;
+      margin-top: 16px;
+    }
   }
-`
+`;
