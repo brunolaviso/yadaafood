@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
 import { CardProducts } from "../../components/CardProducts";
 import { Header } from "../../components/Header";
-
 import { ContainerProducts } from './styles'
+import { Product } from "../../interfaces/Product";
 
 export function Products() {
-  const [products, setProducts] = useState([])
+  const [products, setProducts] = useState<Product[]>([])
 
   useEffect(() => {
     fetch("https://api.airtable.com/v0/app5Vj8ekDqkUVUkD/products", {

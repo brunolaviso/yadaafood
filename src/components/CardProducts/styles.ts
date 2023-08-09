@@ -11,11 +11,22 @@ export const Container = styled.div`
 
   overflow: hidden;
 
-  img {
+  .wrapper-img {
     width: 100%;
+    height: 200px;
+
+    background-color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      height: 100%;
+    }
   }
 
-  > div {
+  .info {
     padding: 16px;
 
     display: flex;
@@ -33,6 +44,7 @@ export const Container = styled.div`
       font-weight: 300;
       text-align: center;
       font-size: 14px;
+      margin: 8px 16px;
     }
 
     span {
@@ -51,6 +63,14 @@ export const Container = styled.div`
       font-size: 16px;
       font-weight: 700;
       margin-top: 16px;
+
+      cursor: pointer;
+
+      transition: filter 0.2s;
+
+      &:hover {
+        filter: brightness(0.9);
+      }
     }
   }
 `;
