@@ -1,15 +1,11 @@
 import { useNavigate } from "react-router-dom";
 import { Container } from "./styles";
+import { CartProduct } from "../../interfaces/Cart";
 
 interface CardProductsProps {
   name: string;
   price: number;
   image: string;
-}
-
-interface CartProduct {
-  product: CardProductsProps;
-  quantity: number;
 }
 
 export function CardProducts(props: CardProductsProps) {

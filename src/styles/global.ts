@@ -13,16 +13,19 @@ const GlobalStyle = createGlobalStyle`
 
   body {
     background-color: #1b1b1b;
+    color: #fff;
+  }
+
+  button {
+    cursor: pointer;
   }
 
   .container {
     max-width: 1200px;
     height: 100%;
     margin: 0 auto;
-    padding: 0 16px;
+    padding: 32px 16px;
   }
-
-
 `
 
 export default GlobalStyle
